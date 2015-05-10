@@ -124,7 +124,7 @@ class DataController {
                                 if usdaFieldsDictionary["CHOLE"] != nil {
                                     let cholesterolDictionary = usdaFieldsDictionary["CHOLE"]! as NSDictionary
                                     if cholesterolDictionary["value"] != nil {
-                                        let cholesterol: AnyObject = cholesterolDictionary["value"]!
+                                        let cholesterolValue: AnyObject = cholesterolDictionary["value"]!
                                         usdaItem.cholesterol = "\(cholesterolValue)"
                                     }
                                 }
